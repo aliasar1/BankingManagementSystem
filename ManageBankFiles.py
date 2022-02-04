@@ -9,7 +9,6 @@ class ManageBankFiles():
         if os.path.exists(file2) == True:
             os.remove(file2) 
 
-
     def manageFiles(self, flag, file, file2):
         if flag == True:
             os.remove(file)

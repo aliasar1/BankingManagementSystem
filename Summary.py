@@ -2,6 +2,7 @@ import os
 from fpdf import FPDF 
 
 class Summary:
+    
     def printData(self, file, file2, file3):
         if os.path.exists(file2) == True:
             os.remove(file2)  
